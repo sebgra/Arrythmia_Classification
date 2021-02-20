@@ -25,6 +25,8 @@ Previous studies concerning AF classification are generally limited in applicabi
 
 https://physionet.org/content/challenge-2017/1.0.0/
 
+## Data
+
 | Type   | # Recordings   | Mean (s) | SD (s) | Min (s) | Median (s) | Max (s) |
 |--------|----------------|----------|--------|---------|------------|---------|
 | Normal |      5154      |     31.9 |  10.0  |   61.0  |    30.0    |   9.0   |
@@ -39,7 +41,11 @@ The model used is inpsired of Classification of ECG Arrhythmia using Recurrent N
 
 Sequences needed to be padded, because of the dissimilarity of sequence lengths and can not be handled within a ragged tensor.
 
-The model is implemented with TensorFlow. 
+The model is implemented with TensorFlow. Wfdb library was required to extract sequences from .hea format. 
 
 ## Results
+
+A score of 0.6208 was reached after 50 epochs. 
+
+
 
