@@ -47,5 +47,9 @@ The model is implemented with TensorFlow. Wfdb library was required to extract s
 
 A score of 0.6208 was reached after 50 epochs. 
 
+<img src="https://github.com/sebgra/Arrythmia_Classification/blob/main/ECG_Classification_Results.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
+
 
 
