@@ -37,7 +37,7 @@ https://physionet.org/content/challenge-2017/1.0.0/
 
 ## Model Used
 
-The model used is inpsired of Classification of ECG Arrhythmia using Recurrent Neural Networks by Shraddha Singh Saroj, Kumar Pandey, Urja Pawar, Rekh Ram Janghel. It consist of 3 LSTM layers of respectively 64,256 and 100 neurons with a dropout rate of 0.2. 
+The model used is inpsired of *Classification of ECG Arrhythmia using Recurrent Neural Networks by Shraddha Singh Saroj, Kumar Pandey, Urja Pawar, Rekh Ram Janghel*. It consist of 3 LSTM layers of respectively 64,256 and 100 neurons with a dropout rate of 0.2. 
 
 Sequences needed to be padded, because of the dissimilarity of sequence lengths and can not be handled within a ragged tensor.
 
